@@ -25,4 +25,4 @@
 # 
 # m h  dom mon dow   command
 30	18	*	*	5	/opt/pr-task2.sh
-0	8	*	*	*	/sbin/logwatch
+0	8	*	*	*	logwatch --detail Med --mailto ubuntutet@gmail.com --service sshd --service vsftpd --range today
