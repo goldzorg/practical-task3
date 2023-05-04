@@ -1,1 +1,2 @@
 logwatch --detail Med --mailto root --service sshd --service vsftpd --range today
+logwatch --detail Med --mailto ubuntutet@gmail.com --service sshd --service vsftpd --range today
